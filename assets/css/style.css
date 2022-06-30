@@ -1,5 +1,7 @@
 * {
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
 header {
@@ -7,16 +9,20 @@ header {
     font-family: monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(91, 88, 88);
     background-color: rgba(242, 243, 233, 0.98);
+    overflow: hidden;
 }
 
 h1 {
     font-size: 60px;
+    font-weight: lighter;
+    padding: 40px;
 }
 
 p {
     font-size: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.5;
+    padding: 15px;
 }
 
 nav {
@@ -38,14 +44,69 @@ nav a {
     color: rgba(242, 243, 233, 0.98);
 }
 
+#about-me{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
 h2 {
     font-family: monospace, 'Courier New', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    padding: 20px;
+}
+
+.float-left {
+    float: left;
+    padding: 20px;
+}
+
+.float-right {
+    text-align: justify;
+}
+
+article {
+    text-align: end;
+
+}
+
+#work {
+    background-color: rgba(242, 243, 233, 0.98);
+}
+
+.first-project {
+    padding: 20px 10px 20px 10px;
+    margin: 20px 10px 20px 10px;
+}
+
+.meeting {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block {
+    display: inline-flex;
     text-align: center;
 }
 
-
-
 .display-inline {
-    display: grid;
+    padding: 10px;
+    margin: 10px;
 }
+
+.contact-info {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(242, 243, 233, 0.98);
+    color: rgb(91, 88, 88);
+}
+
+
 
