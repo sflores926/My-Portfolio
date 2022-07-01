@@ -54,6 +54,7 @@ h2 {
     font-weight: lighter;
     text-align: center;
     padding: 20px;
+    margin: 10px;
 }
 
 .float-left {
@@ -88,24 +89,44 @@ article {
 .block {
     display: inline-flex;
     text-align: center;
+    position: relative;
+}
+
+.titles {
+    position: absolute;
 }
 
 .display-inline {
-    padding: 10px;
-    margin: 10px;
+    /* padding: 10px; */
+    margin: 40px;
+}
+
+#contact {
+    padding-top: 3%;
+    padding-bottom: 5%;
+
 }
 
 .contact-info {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.info {
     text-decoration: none;
+    font-size: 15px;
+    font-family: monospace, sans-serif;
+    color: chocolate;
+    margin: 30px;
+
 }
 
 footer {
     display: flex;
     justify-content: center;
-    background-color: rgba(242, 243, 233, 0.98);
-    color: rgb(91, 88, 88);
+    background-color: rgb(91, 88, 88);
+    color: rgba(242, 243, 233, 0.98);
+    padding: 1%;
 }
 
 
