@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
 
+  body {
+    overflow-x: hidden;
+  }
+
 header {
     text-align: center;
     font-family: monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -60,12 +64,14 @@ h2 {
 .box {
     margin: 20px;
     display: flex;
+    /* object-fit: contain; */
 
 }
 .float-left {
     float: left;
-    clear:left;
-    margin: 0px 0px 15px 15px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
 }
 
 .words-right {
@@ -84,8 +90,8 @@ h2 {
 
 .meeting {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    object-fit: contain;
+    width: 100%;
 }
 
 .block {
@@ -93,15 +99,9 @@ h2 {
     text-align: center;
     position: relative;
     left: 100px;
+   
 }
 
-.tiles {
-
-}
-
-h3 {
-
-}
 
 .titles {
     position: relative;
@@ -147,12 +147,25 @@ footer {
 
 
 
-@media screen and (max-width: 768px) {
-    .block,
-    .first-project {
-        flex-direction: column;
-        width: 50%;
+@media screen and (max-width: 1000px) {
+    .block {
+      flex: 50%;
+      width: 40%;
+      flex-direction: column;
     }
-}
+  }
+
+  @media screen and (max-width: 620px) {
+    .block,
+    .box {
+      flex: 100%;
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+
+
+
+
 
 
