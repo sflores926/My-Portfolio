@@ -1,2 +1,9 @@
 # My-Portfolio
-A portfolio showcasing my skills and talents to future employers. 
+
+A portfolio showcasing my skills and talents to future employers.
+
+
+Direct Link to my Portfolio page: https://sflores926.github.io/My-Portfolio/
+
+
+![Picture of my webpage](./assets/images/screencapture-file-Users-sflores-Desktop-My-Portfolio-index-html-2022-07-05-11_26_41.png)
