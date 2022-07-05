@@ -75,8 +75,7 @@ h2 {
 }
 
 .words-right {
-    float: right;
-    display: contents;
+    margin-bottom: 10px;
 }
 
 #work {
@@ -98,7 +97,7 @@ h2 {
     display: inline-flex;
     text-align: center;
     position: relative;
-    left: 100px;
+    left: 75px;
    
 }
 
