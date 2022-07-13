@@ -101,6 +101,16 @@ h2 {
    
 }
 
+.first-work {
+    position: relative;
+    top: 500px;
+    text-align: center;
+    color: rgba(242, 243, 233, 0.98);
+    font-family: monospace, sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
 
 .titles {
     position: relative;
